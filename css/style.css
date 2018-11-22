@@ -1,0 +1,74 @@
+div {
+    height: 30px;
+}
+
+li {
+    height: 30px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.left li {
+    float: left;
+    padding-left: 15px;
+}
+
+.right li {
+    float: right;
+    padding-right: 15px;
+}
+
+ul {
+    height: 30px;
+    list-style: none;
+}
+
+#nav img {
+    height: 26px;
+    width: 26px;
+    opacity: 0.75;
+    padding: 2px 0px;
+}
+
+#nav div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#nav {
+    top: 20px;
+    width: 100%;
+    min-width: 800px;
+    height: 30px;
+    position: absolute;
+    /* overflow: scroll; */
+}
+
+#nav a {
+    color: black;
+    height: 30px;
+    text-decoration: none;
+    font-family: 'Arial';
+    vertical-align: middle;
+    opacity: 0.75;
+    font-size: 12px;
+    line-height: 30px;
+    /* padding-left: 15px; */
+}
+
+#nav button {
+    background-color: #4285f4;
+    height: 30px;
+    /* width: 70px; */
+    color: white;
+    border-color: #4285f4;
+    border-radius: 3px;
+    font-weight: bold;
+    padding: 0px 13px;
+}
