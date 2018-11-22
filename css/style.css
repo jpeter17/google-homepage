@@ -1,9 +1,59 @@
-div {
+div#nav {
     height: 30px;
+}
+
+.mic {
+    top: 350px;
+    height: 44px;
+    vertical-align: middle;
+    position: absolute;
+    text-align: center;
+    width: 100%
+}
+
+.logo {
+    top: 115px;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+}
+
+#search {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 100%
+}
+
+#search img {
+    display: inline-block;
+    margin: 0 auto;
+}
+#search .logo img {
+    position: relative;
+}
+
+#search .mic img {
+    height: 20px;
+    width: 14px;
+    padding: 12px;
+    margin-left: 150px;
+    position: absolute;
 }
 
 li {
     height: 30px;
+}
+
+input {
+    height: 38px;
+    width: 484px;
+    align-self: center;
+    top: 350px;
+    position: relative;
+    display: block;
+    margin: 0 auto;
 }
 
 .left {
